@@ -1,44 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projeto Happy
 
-## Available Scripts
+O projeto é uma aplicação web desenvolvida com o objetivo de conectar pessoas a orfanatos. A ideia por trás do projeto é permitir que as pessoas encontrem orfanatos em sua região, obtenham informações sobre eles e agendem visitas para levar alegria e proporcionar momentos especiais para as crianças que vivem nesses locais.
 
-In the project directory, you can run:
+## Funcionalidades Principais
 
-### `yarn start`
+O projeto "Happy" possui várias funcionalidades que permitem aos usuários interagir com a plataforma e encontrar informações relevantes sobre os orfanatos. Algumas das funcionalidades principais são:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Mapa Interativo:** O projeto apresenta um mapa interativo que exibe marcadores indicando a localização dos orfanatos em uma determinada região. Os usuários podem navegar pelo mapa, dar zoom e clicar nos marcadores para obter mais informações sobre cada orfanato.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+2. **Cadastro de Orfanatos:** Usuários autenticados têm a possibilidade de cadastrar novos orfanatos na plataforma. Ao cadastrar um novo orfanato, eles podem fornecer informações como nome, descrição, fotos, horário de funcionamento, instruções de visita e número de telefone para contato.
 
-### `yarn test`
+3. **Visualização de Detalhes:** Ao clicar em um marcador no mapa ou selecionar um orfanato da lista, os usuários podem visualizar informações detalhadas sobre o orfanato, incluindo fotos, descrição e horário de funcionamento. Também é possível obter instruções sobre como chegar ao local.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Agendamento de Visitas:** A plataforma permite que os usuários agendem visitas aos orfanatos. Eles podem escolher uma data e hora disponível para realizar a visita e confirmar o agendamento através do sistema.
 
-### `yarn build`
+## Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O projeto "Happy" é desenvolvido utilizando várias tecnologias modernas do desenvolvimento web. Algumas das principais tecnologias utilizadas são:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- **Node.js:** É uma plataforma de desenvolvimento que permite executar código JavaScript no lado do servidor. É a base da aplicação, cuidando da lógica do servidor e gerenciamento das requisições.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Express:** É um framework web para Node.js que facilita o desenvolvimento de aplicativos web e APIs.
 
-### `yarn eject`
+- **React:** É uma biblioteca JavaScript de código aberto para construir interfaces de usuário. É utilizado para desenvolver o frontend da aplicação.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **React Leaflet:** É uma biblioteca que permite integrar mapas interativos em aplicativos React. É utilizado para renderizar o mapa interativo na aplicação.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **SQLite:** É um banco de dados relacional que é utilizado para armazenar as informações dos orfanatos cadastrados.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **TypeScript:** É uma linguagem de programação que adiciona tipagem ao JavaScript, trazendo mais robustez e melhor desenvolvimento em equipe.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Fluxo de Funcionamento
 
-## Learn More
+O fluxo de funcionamento do projeto "Happy" é relativamente simples e envolve as seguintes etapas:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Acesso à Plataforma:** Os usuários acessam a plataforma "Happy" através de um navegador da web.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Visualização do Mapa:** Na página inicial da plataforma, é exibido o mapa interativo que mostra os marcadores representando os orfanatos disponíveis.
+
+3. **Visualização de Detalhes:** Ao clicar em um marcador no mapa ou selecionar um orfanato na lista, os usuários podem visualizar informações detalhadas sobre o orfanato, incluindo fotos, descrição e horário de funcionamento.
+
+4. **
