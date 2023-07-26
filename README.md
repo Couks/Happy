@@ -1,6 +1,6 @@
 # Projeto Happy
 
-O projeto é uma aplicação web desenvolvida com o objetivo de conectar pessoas a orfanatos. A ideia por trás do projeto é permitir que as pessoas encontrem orfanatos em sua região, obtenham informações sobre eles e agendem visitas para levar alegria e proporcionar momentos especiais para as crianças que vivem nesses locais.
+O projeto "Happy" é uma aplicação web desenvolvida com o objetivo de conectar pessoas a orfanatos. A ideia por trás do projeto é permitir que as pessoas encontrem orfanatos em sua região, obtenham informações sobre eles e agendem visitas para levar alegria e proporcionar momentos especiais para as crianças que vivem nesses locais.
 
 ## Funcionalidades Principais
 
@@ -40,4 +40,10 @@ O fluxo de funcionamento do projeto "Happy" é relativamente simples e envolve a
 
 3. **Visualização de Detalhes:** Ao clicar em um marcador no mapa ou selecionar um orfanato na lista, os usuários podem visualizar informações detalhadas sobre o orfanato, incluindo fotos, descrição e horário de funcionamento.
 
-4. **
+4. **Cadastro de Orfanatos:** Os usuários autenticados podem cadastrar novos orfanatos na plataforma, fornecendo informações relevantes sobre eles.
+
+5. **Agendamento de Visitas:** Os usuários podem agendar visitas aos orfanatos disponíveis, escolhendo uma data e hora disponível no sistema.
+
+## Conclusão
+
+O projeto "Happy" tem como objetivo promover a conexão entre pessoas e orfanatos, permitindo que os usuários encontrem orfanatos em sua região, visualizem informações relevantes e agendem visitas para levar alegria às crianças. Com um mapa interativo e funcionalidades de cadastro e agendamento, a plataforma busca incentivar a prática de atividades sociais e proporcionar momentos especiais para as crianças que vivem em orfanatos. Além disso, o uso de tecnologias modernas como Node.js, React e TypeScript torna o projeto robusto, eficiente e de fácil manutenção.
